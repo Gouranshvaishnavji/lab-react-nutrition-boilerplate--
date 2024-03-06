@@ -1,0 +1,101 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+  background-color: rgb(255, 243, 220);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#food-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#food-box {
+  display: flex;
+  width: 60%;
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 20px;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 1px #7e0eb6;
+}
+
+#food-box input, #food-box button {
+  padding: 10px;
+  border: 2px solid #7e0eb6;
+  border-radius: 5px;
+}
+
+#food-box img {
+  height: 80px;
+  width: 80px;
+}
+
+#add-box input {
+  border: 2px solid #7e0eb6;
+  border-radius: 5px;
+}
+
+#add-box button {
+  color: white;
+  margin: 5px;
+  background-color: #7e0eb6;
+  border: none;
+  border-radius: 5px;
+}
+
+#search {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 1px #7e0eb6;
+}
+
+#search h1 {
+  padding: 10px 0px;
+}
+
+#search input {
+  width: 50%;
+  height: 40px;
+  margin: 0px 30px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #7e0eb6;
+}
+
+#calories {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 280px;
+  margin: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 1px #7e0eb6;
+}
+
+#calories button {
+  background-color: #7e0eb6;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+}
